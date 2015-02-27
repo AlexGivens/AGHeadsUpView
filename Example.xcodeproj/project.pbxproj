@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5157A7D1A9F012000AE66A2 /* Color_Myx_HUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5157A7C1A9F012000AE66A2 /* Color_Myx_HUDTests.m */; };
+		A55476CE1A9FF7020028FAD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55476CD1A9FF7020028FAD4 /* Images.xcassets */; };
+		A55476D71A9FF7100028FAD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A55476D01A9FF7100028FAD4 /* AppDelegate.m */; };
+		A55476D91A9FF7100028FAD4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A55476D21A9FF7100028FAD4 /* Info.plist */; };
+		A55476DA1A9FF7100028FAD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A55476D31A9FF7100028FAD4 /* main.m */; };
+		A55476DB1A9FF7100028FAD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55476D51A9FF7100028FAD4 /* ViewController.m */; };
+		A55476DC1A9FF7100028FAD4 /* yosemite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A55476D61A9FF7100028FAD4 /* yosemite.jpg */; };
+		A57E66F11A9FF747007C62B1 /* AGHeadsUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = A57E66EB1A9FF747007C62B1 /* AGHeadsUpView.m */; };
+		A57E66F21A9FF747007C62B1 /* AGHeadsUpView+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = A57E66EC1A9FF747007C62B1 /* AGHeadsUpView+Class.m */; };
+		A57E66F31A9FF747007C62B1 /* AGHeadsUpWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A57E66EE1A9FF747007C62B1 /* AGHeadsUpWindow.m */; };
+		A57E66F41A9FF747007C62B1 /* LLARingSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A57E66F01A9FF747007C62B1 /* LLARingSpinnerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5157A771A9F012000AE66A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5157A551A9F011F00AE66A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5157A5C1A9F011F00AE66A2;
+			remoteInfo = "Color Myx HUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5157A5D1A9F011F00AE66A2 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5157A761A9F012000AE66A2 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5157A7B1A9F012000AE66A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5157A7C1A9F012000AE66A2 /* Color_Myx_HUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_Myx_HUDTests.m; sourceTree = "<group>"; };
+		A55476CD1A9FF7020028FAD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Example/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		A55476CF1A9FF7100028FAD4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		A55476D01A9FF7100028FAD4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		A55476D21A9FF7100028FAD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = SOURCE_ROOT; };
+		A55476D31A9FF7100028FAD4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = SOURCE_ROOT; };
+		A55476D41A9FF7100028FAD4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Example/ViewController.h; sourceTree = SOURCE_ROOT; };
+		A55476D51A9FF7100028FAD4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Example/ViewController.m; sourceTree = SOURCE_ROOT; };
+		A55476D61A9FF7100028FAD4 /* yosemite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yosemite.jpg; path = Example/yosemite.jpg; sourceTree = SOURCE_ROOT; };
+		A57E66EA1A9FF747007C62B1 /* AGHeadsUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGHeadsUpView.h; path = AGHeadsUpView/AGHeadsUpView.h; sourceTree = SOURCE_ROOT; };
+		A57E66EB1A9FF747007C62B1 /* AGHeadsUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGHeadsUpView.m; path = AGHeadsUpView/AGHeadsUpView.m; sourceTree = SOURCE_ROOT; };
+		A57E66EC1A9FF747007C62B1 /* AGHeadsUpView+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AGHeadsUpView+Class.m"; path = "AGHeadsUpView/AGHeadsUpView+Class.m"; sourceTree = SOURCE_ROOT; };
+		A57E66ED1A9FF747007C62B1 /* AGHeadsUpWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGHeadsUpWindow.h; path = AGHeadsUpView/AGHeadsUpWindow.h; sourceTree = SOURCE_ROOT; };
+		A57E66EE1A9FF747007C62B1 /* AGHeadsUpWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGHeadsUpWindow.m; path = AGHeadsUpView/AGHeadsUpWindow.m; sourceTree = SOURCE_ROOT; };
+		A57E66EF1A9FF747007C62B1 /* LLARingSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLARingSpinnerView.h; path = AGHeadsUpView/LLARingSpinnerView.h; sourceTree = SOURCE_ROOT; };
+		A57E66F01A9FF747007C62B1 /* LLARingSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLARingSpinnerView.m; path = AGHeadsUpView/LLARingSpinnerView.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5157A5A1A9F011F00AE66A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5157A731A9F012000AE66A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5157A541A9F011F00AE66A2 = {
+			isa = PBXGroup;
+			children = (
+				A5DBEE941A9F0A7900CA9D03 /* AGHeadsUpView */,
+				A5157A5F1A9F011F00AE66A2 /* Example */,
+				A5157A791A9F012000AE66A2 /* Color Myx HUDTests */,
+				A5157A5E1A9F011F00AE66A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5157A5E1A9F011F00AE66A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5157A5D1A9F011F00AE66A2 /* Example.app */,
+				A5157A761A9F012000AE66A2 /* ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5157A5F1A9F011F00AE66A2 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				A55476CF1A9FF7100028FAD4 /* AppDelegate.h */,
+				A55476D01A9FF7100028FAD4 /* AppDelegate.m */,
+				A55476D41A9FF7100028FAD4 /* ViewController.h */,
+				A55476D51A9FF7100028FAD4 /* ViewController.m */,
+				A55476CD1A9FF7020028FAD4 /* Images.xcassets */,
+				A5157A601A9F011F00AE66A2 /* Supporting Files */,
+			);
+			name = Example;
+			path = "Color Myx HUD";
+			sourceTree = "<group>";
+		};
+		A5157A601A9F011F00AE66A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A55476D21A9FF7100028FAD4 /* Info.plist */,
+				A55476D31A9FF7100028FAD4 /* main.m */,
+				A55476D61A9FF7100028FAD4 /* yosemite.jpg */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5157A791A9F012000AE66A2 /* Color Myx HUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5157A7C1A9F012000AE66A2 /* Color_Myx_HUDTests.m */,
+				A5157A7A1A9F012000AE66A2 /* Supporting Files */,
+			);
+			path = "Color Myx HUDTests";
+			sourceTree = "<group>";
+		};
+		A5157A7A1A9F012000AE66A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5157A7B1A9F012000AE66A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5DBEE941A9F0A7900CA9D03 /* AGHeadsUpView */ = {
+			isa = PBXGroup;
+			children = (
+				A57E66EA1A9FF747007C62B1 /* AGHeadsUpView.h */,
+				A57E66EB1A9FF747007C62B1 /* AGHeadsUpView.m */,
+				A57E66EC1A9FF747007C62B1 /* AGHeadsUpView+Class.m */,
+				A57E66ED1A9FF747007C62B1 /* AGHeadsUpWindow.h */,
+				A57E66EE1A9FF747007C62B1 /* AGHeadsUpWindow.m */,
+				A57E66EF1A9FF747007C62B1 /* LLARingSpinnerView.h */,
+				A57E66F01A9FF747007C62B1 /* LLARingSpinnerView.m */,
+			);
+			name = AGHeadsUpView;
+			path = "Color Myx HUD";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5157A5C1A9F011F00AE66A2 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5157A801A9F012000AE66A2 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				A5157A591A9F011F00AE66A2 /* Sources */,
+				A5157A5A1A9F011F00AE66A2 /* Frameworks */,
+				A5157A5B1A9F011F00AE66A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = "Color Myx HUD";
+			productReference = A5157A5D1A9F011F00AE66A2 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5157A751A9F012000AE66A2 /* Example Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5157A831A9F012000AE66A2 /* Build configuration list for PBXNativeTarget "Example Tests" */;
+			buildPhases = (
+				A5157A721A9F012000AE66A2 /* Sources */,
+				A5157A731A9F012000AE66A2 /* Frameworks */,
+				A5157A741A9F012000AE66A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5157A781A9F012000AE66A2 /* PBXTargetDependency */,
+			);
+			name = "Example Tests";
+			productName = "Color Myx HUDTests";
+			productReference = A5157A761A9F012000AE66A2 /* ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5157A551A9F011F00AE66A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Alex Givens";
+				TargetAttributes = {
+					A5157A5C1A9F011F00AE66A2 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A5157A751A9F012000AE66A2 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A5157A5C1A9F011F00AE66A2;
+					};
+				};
+			};
+			buildConfigurationList = A5157A581A9F011F00AE66A2 /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5157A541A9F011F00AE66A2;
+			productRefGroup = A5157A5E1A9F011F00AE66A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5157A5C1A9F011F00AE66A2 /* Example */,
+				A5157A751A9F012000AE66A2 /* Example Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5157A5B1A9F011F00AE66A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55476D91A9FF7100028FAD4 /* Info.plist in Resources */,
+				A55476DC1A9FF7100028FAD4 /* yosemite.jpg in Resources */,
+				A55476CE1A9FF7020028FAD4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5157A741A9F012000AE66A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5157A591A9F011F00AE66A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55476DB1A9FF7100028FAD4 /* ViewController.m in Sources */,
+				A55476D71A9FF7100028FAD4 /* AppDelegate.m in Sources */,
+				A55476DA1A9FF7100028FAD4 /* main.m in Sources */,
+				A57E66F31A9FF747007C62B1 /* AGHeadsUpWindow.m in Sources */,
+				A57E66F21A9FF747007C62B1 /* AGHeadsUpView+Class.m in Sources */,
+				A57E66F11A9FF747007C62B1 /* AGHeadsUpView.m in Sources */,
+				A57E66F41A9FF747007C62B1 /* LLARingSpinnerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5157A721A9F012000AE66A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5157A7D1A9F012000AE66A2 /* Color_Myx_HUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5157A781A9F012000AE66A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5157A5C1A9F011F00AE66A2 /* Example */;
+			targetProxy = A5157A771A9F012000AE66A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5157A7E1A9F012000AE66A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5157A7F1A9F012000AE66A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5157A811A9F012000AE66A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Example;
+			};
+			name = Debug;
+		};
+		A5157A821A9F012000AE66A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Example;
+			};
+			name = Release;
+		};
+		A5157A841A9F012000AE66A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Color Myx HUDTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ExampleTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Myx HUD.app/Color Myx HUD";
+			};
+			name = Debug;
+		};
+		A5157A851A9F012000AE66A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Color Myx HUDTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ExampleTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Myx HUD.app/Color Myx HUD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5157A581A9F011F00AE66A2 /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5157A7E1A9F012000AE66A2 /* Debug */,
+				A5157A7F1A9F012000AE66A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5157A801A9F012000AE66A2 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5157A811A9F012000AE66A2 /* Debug */,
+				A5157A821A9F012000AE66A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5157A831A9F012000AE66A2 /* Build configuration list for PBXNativeTarget "Example Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5157A841A9F012000AE66A2 /* Debug */,
+				A5157A851A9F012000AE66A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5157A551A9F011F00AE66A2 /* Project object */;
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yosemite.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tXq-wj-LLD">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hur-vz-eia" userLabel="Container View">
+                                <rect key="frame" x="0.0" y="512" width="600" height="88"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Beautiful Yosemite" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xzm-Z5-s5d" userLabel="Text Field">
+                                        <rect key="frame" x="16" y="13" width="452" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="SSU-4f-aeI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="B1T-c2-vJZ"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Srf-nn-7SQ">
+                                        <rect key="frame" x="204" y="48" width="192" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="192" id="iKy-1h-fnQ"/>
+                                            <constraint firstAttribute="height" constant="30" id="oiq-5b-yeD"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Loading Indicator">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTouchActivityIndicatorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lSa-y9-kSf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="862-3e-jJq">
+                                        <rect key="frame" x="476" y="13" width="108" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="R7S-7B-LiA"/>
+                                            <constraint firstAttribute="width" constant="108" id="UoM-dj-bfV"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Message">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTouchCustomMessageButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9gL-26-4Y5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="5hR-eC-eh0"/>
+                                    <constraint firstAttribute="centerY" secondItem="Srf-nn-7SQ" secondAttribute="centerY" constant="-19" id="7mc-ss-hcr"/>
+                                    <constraint firstItem="862-3e-jJq" firstAttribute="centerY" secondItem="xzm-Z5-s5d" secondAttribute="centerY" id="7mx-zU-ej3"/>
+                                    <constraint firstAttribute="trailing" secondItem="862-3e-jJq" secondAttribute="trailing" constant="16" id="Y6X-8e-jJq"/>
+                                    <constraint firstItem="862-3e-jJq" firstAttribute="leading" secondItem="xzm-Z5-s5d" secondAttribute="trailing" constant="8" id="bYg-ce-MGa"/>
+                                    <constraint firstItem="xzm-Z5-s5d" firstAttribute="leading" secondItem="Hur-vz-eia" secondAttribute="leading" constant="16" id="gkj-RY-8fn"/>
+                                    <constraint firstAttribute="centerY" secondItem="xzm-Z5-s5d" secondAttribute="centerY" constant="16" id="hZK-Sm-Qtt"/>
+                                    <constraint firstAttribute="centerX" secondItem="Srf-nn-7SQ" secondAttribute="centerX" id="vea-w7-Cmq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.9359520687645686" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hur-vz-eia" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0OP-1r-BHq"/>
+                            <constraint firstAttribute="trailing" secondItem="Hur-vz-eia" secondAttribute="trailing" id="AjU-nB-HJd"/>
+                            <constraint firstItem="tXq-wj-LLD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PDH-BH-y9D"/>
+                            <constraint firstAttribute="trailing" secondItem="tXq-wj-LLD" secondAttribute="trailing" id="Q7s-Iw-b4Y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hur-vz-eia" secondAttribute="bottom" id="cgy-NQ-9iR"/>
+                            <constraint firstAttribute="bottom" secondItem="tXq-wj-LLD" secondAttribute="bottom" id="qZz-bb-bI4"/>
+                            <constraint firstItem="tXq-wj-LLD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vla-KF-qbW"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="containerView" destination="Hur-vz-eia" id="727-7u-ofN"/>
+                        <outlet property="containerViewBottomConstraint" destination="cgy-NQ-9iR" id="EZE-MD-dLD"/>
+                        <outlet property="messageTextField" destination="xzm-Z5-s5d" id="9mc-cE-Xib"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="334"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="yosemite.jpg" width="2048" height="2048"/>
+    </resources>
+</document>
