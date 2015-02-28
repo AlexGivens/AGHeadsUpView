@@ -291,7 +291,7 @@
     [self animateOpen];
 }
 
-- (void)showLoadingviewWithDefiniteTime:(float)time {
+- (void)showLoadingViewWithDefiniteTime:(float)time {
     [self showLoadingView];
     [self createDismissTimerWithTime:time];
 }

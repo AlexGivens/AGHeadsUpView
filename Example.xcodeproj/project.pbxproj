@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5157A7D1A9F012000AE66A2 /* Color_Myx_HUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5157A7C1A9F012000AE66A2 /* Color_Myx_HUDTests.m */; };
 		A55476CE1A9FF7020028FAD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55476CD1A9FF7020028FAD4 /* Images.xcassets */; };
 		A55476D71A9FF7100028FAD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A55476D01A9FF7100028FAD4 /* AppDelegate.m */; };
-		A55476D91A9FF7100028FAD4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A55476D21A9FF7100028FAD4 /* Info.plist */; };
 		A55476DA1A9FF7100028FAD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A55476D31A9FF7100028FAD4 /* main.m */; };
 		A55476DB1A9FF7100028FAD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55476D51A9FF7100028FAD4 /* ViewController.m */; };
 		A55476DC1A9FF7100028FAD4 /* yosemite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A55476D61A9FF7100028FAD4 /* yosemite.jpg */; };
@@ -18,23 +16,12 @@
 		A57E66F21A9FF747007C62B1 /* AGHeadsUpView+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = A57E66EC1A9FF747007C62B1 /* AGHeadsUpView+Class.m */; };
 		A57E66F31A9FF747007C62B1 /* AGHeadsUpWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A57E66EE1A9FF747007C62B1 /* AGHeadsUpWindow.m */; };
 		A57E66F41A9FF747007C62B1 /* LLARingSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A57E66F01A9FF747007C62B1 /* LLARingSpinnerView.m */; };
+		A58903A91AA131590004F6AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A58903A51AA131590004F6AC /* LaunchScreen.xib */; };
+		A58903AA1AA131590004F6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58903A71AA131590004F6AC /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A5157A771A9F012000AE66A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A5157A551A9F011F00AE66A2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5157A5C1A9F011F00AE66A2;
-			remoteInfo = "Color Myx HUD";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A5157A5D1A9F011F00AE66A2 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5157A761A9F012000AE66A2 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5157A7B1A9F012000AE66A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5157A7C1A9F012000AE66A2 /* Color_Myx_HUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_Myx_HUDTests.m; sourceTree = "<group>"; };
 		A55476CD1A9FF7020028FAD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Example/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		A55476CF1A9FF7100028FAD4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		A55476D01A9FF7100028FAD4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/AppDelegate.m; sourceTree = SOURCE_ROOT; };
@@ -50,17 +37,12 @@
 		A57E66EE1A9FF747007C62B1 /* AGHeadsUpWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGHeadsUpWindow.m; path = AGHeadsUpView/AGHeadsUpWindow.m; sourceTree = SOURCE_ROOT; };
 		A57E66EF1A9FF747007C62B1 /* LLARingSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLARingSpinnerView.h; path = AGHeadsUpView/LLARingSpinnerView.h; sourceTree = SOURCE_ROOT; };
 		A57E66F01A9FF747007C62B1 /* LLARingSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLARingSpinnerView.m; path = AGHeadsUpView/LLARingSpinnerView.m; sourceTree = SOURCE_ROOT; };
+		A58903A61AA131590004F6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Example/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		A58903A81AA131590004F6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Example/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A5157A5A1A9F011F00AE66A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5157A731A9F012000AE66A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,7 +57,6 @@
 			children = (
 				A5DBEE941A9F0A7900CA9D03 /* AGHeadsUpView */,
 				A5157A5F1A9F011F00AE66A2 /* Example */,
-				A5157A791A9F012000AE66A2 /* Color Myx HUDTests */,
 				A5157A5E1A9F011F00AE66A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				A5157A5D1A9F011F00AE66A2 /* Example.app */,
-				A5157A761A9F012000AE66A2 /* ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +72,8 @@
 		A5157A5F1A9F011F00AE66A2 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				A58903A51AA131590004F6AC /* LaunchScreen.xib */,
+				A58903A71AA131590004F6AC /* Main.storyboard */,
 				A55476CF1A9FF7100028FAD4 /* AppDelegate.h */,
 				A55476D01A9FF7100028FAD4 /* AppDelegate.m */,
 				A55476D41A9FF7100028FAD4 /* ViewController.h */,
@@ -109,23 +91,6 @@
 				A55476D21A9FF7100028FAD4 /* Info.plist */,
 				A55476D31A9FF7100028FAD4 /* main.m */,
 				A55476D61A9FF7100028FAD4 /* yosemite.jpg */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A5157A791A9F012000AE66A2 /* Color Myx HUDTests */ = {
-			isa = PBXGroup;
-			children = (
-				A5157A7C1A9F012000AE66A2 /* Color_Myx_HUDTests.m */,
-				A5157A7A1A9F012000AE66A2 /* Supporting Files */,
-			);
-			path = "Color Myx HUDTests";
-			sourceTree = "<group>";
-		};
-		A5157A7A1A9F012000AE66A2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A5157A7B1A9F012000AE66A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,24 +130,6 @@
 			productReference = A5157A5D1A9F011F00AE66A2 /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A5157A751A9F012000AE66A2 /* Example Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5157A831A9F012000AE66A2 /* Build configuration list for PBXNativeTarget "Example Tests" */;
-			buildPhases = (
-				A5157A721A9F012000AE66A2 /* Sources */,
-				A5157A731A9F012000AE66A2 /* Frameworks */,
-				A5157A741A9F012000AE66A2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5157A781A9F012000AE66A2 /* PBXTargetDependency */,
-			);
-			name = "Example Tests";
-			productName = "Color Myx HUDTests";
-			productReference = A5157A761A9F012000AE66A2 /* ExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,10 +141,6 @@
 				TargetAttributes = {
 					A5157A5C1A9F011F00AE66A2 = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					A5157A751A9F012000AE66A2 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = A5157A5C1A9F011F00AE66A2;
 					};
 				};
 			};
@@ -215,7 +158,6 @@
 			projectRoot = "";
 			targets = (
 				A5157A5C1A9F011F00AE66A2 /* Example */,
-				A5157A751A9F012000AE66A2 /* Example Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,16 +167,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A55476D91A9FF7100028FAD4 /* Info.plist in Resources */,
 				A55476DC1A9FF7100028FAD4 /* yosemite.jpg in Resources */,
+				A58903A91AA131590004F6AC /* LaunchScreen.xib in Resources */,
 				A55476CE1A9FF7020028FAD4 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5157A741A9F012000AE66A2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A58903AA1AA131590004F6AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,23 +191,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5157A721A9F012000AE66A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5157A7D1A9F012000AE66A2 /* Color_Myx_HUDTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		A5157A781A9F012000AE66A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A5157A5C1A9F011F00AE66A2 /* Example */;
-			targetProxy = A5157A771A9F012000AE66A2 /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		A58903A51AA131590004F6AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A58903A61AA131590004F6AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
 		};
-/* End PBXTargetDependency section */
+		A58903A71AA131590004F6AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A58903A81AA131590004F6AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A5157A7E1A9F012000AE66A2 /* Debug */ = {
@@ -359,7 +298,6 @@
 			buildSettings = {
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Example;
 			};
 			name = Debug;
@@ -369,44 +307,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Example;
-			};
-			name = Release;
-		};
-		A5157A841A9F012000AE66A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Color Myx HUDTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ExampleTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Myx HUD.app/Color Myx HUD";
-			};
-			name = Debug;
-		};
-		A5157A851A9F012000AE66A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Color Myx HUDTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ExampleTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Myx HUD.app/Color Myx HUD";
 			};
 			name = Release;
 		};
@@ -427,15 +328,6 @@
 			buildConfigurations = (
 				A5157A811A9F012000AE66A2 /* Debug */,
 				A5157A821A9F012000AE66A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5157A831A9F012000AE66A2 /* Build configuration list for PBXNativeTarget "Example Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5157A841A9F012000AE66A2 /* Debug */,
-				A5157A851A9F012000AE66A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

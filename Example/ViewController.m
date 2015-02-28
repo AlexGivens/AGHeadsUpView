@@ -97,7 +97,7 @@
 }
 
 - (IBAction)didTouchActivityIndicatorButton:(id)sender {
-    [AGHeadsUpView showLoadingviewWithDefiniteTime:2.0];
+    [AGHeadsUpView showLoadingViewWithDefiniteTime:2.0];
 }
 
 @end

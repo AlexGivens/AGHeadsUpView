@@ -23,7 +23,7 @@
 + (void)showText:(NSString *)text withDefiniteTime:(float)time;
 
 + (void)showLoadingView;
-+ (void)showLoadingviewWithDefiniteTime:(float)time;
++ (void)showLoadingViewWithDefiniteTime:(float)time;
 
 + (void)dismiss;
 

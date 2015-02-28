@@ -13,7 +13,7 @@
 - (void)showText:(NSString *)text withDefiniteTime:(float)time;
 
 - (void)showLoadingView;
-- (void)showLoadingviewWithDefiniteTime:(float)time;
+- (void)showLoadingViewWithDefiniteTime:(float)time;
 
 - (void)dismiss;
 
@@ -33,8 +33,8 @@
     [[AGHeadsUpView sharedView] showLoadingView];
 }
 
-+ (void)showLoadingviewWithDefiniteTime:(float)time {
-    [[AGHeadsUpView sharedView] showLoadingviewWithDefiniteTime:time];
++ (void)showLoadingViewWithDefiniteTime:(float)time {
+    [[AGHeadsUpView sharedView] showLoadingViewWithDefiniteTime:time];
 }
 
 + (void)dismiss {
