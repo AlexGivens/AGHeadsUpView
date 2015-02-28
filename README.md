@@ -13,7 +13,7 @@ AGHeadsUpView is a Cocoa Touch library used to display an unobtrusive HUD for br
 AGHeadsUpView can show a HUD for a definite time. These methods are best for notifications of a singular action.
 
 ```objective-c
-[AGHeadsUpView showLoadingviewWithDefiniteTime:2.0];
+[AGHeadsUpView showLoadingViewWithDefiniteTime:2.0];
 [AGHeadsUpView showText:@"Hello World" withDefiniteTime:2.0];
 ```
 
